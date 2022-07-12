@@ -86,8 +86,13 @@ a:hover{
   }
 
   @media screen and (max-width: 991px) {
+      nav{
+      max-height: fit-content;
+    }
+      
     .firstdiv{
       flex-wrap: wrap;
+        padding: 30px 30px;
     }
 
     ul{
